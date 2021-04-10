@@ -1,0 +1,291 @@
+html,
+body {
+    height: 100%;
+    font-size: 1rem;
+    font-family: Open Sans, sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+    overflow-x: hidden;
+    background-color: #e9f5f8;
+}
+
+
+/*.parallax {
+    background-image: url(images/covid/cov1.jpeg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+#about {
+    background-color: #e9f5f8;
+    opacity: 80%;
+}
+
+.top-bar {
+    background: rgb(48, 48, 163);
+    height: 2.8rem;
+    padding: .5rem 0;
+    text-align: right;
+}
+
+.top-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.top-bar img {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    margin-left: 73%;
+    float: left;
+    top: 3px;
+}
+
+.navbar {
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    margin-top: 20px;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.9);
+    margin-right: 0%;
+    z-index: 1;
+    background-color: white;
+}
+
+.navbar-nav {
+    margin-top: 30px;
+    background-color: white;
+}
+
+.nav-item {
+    padding: .5rem;
+}
+
+.nav-link {
+    color: blue !important;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    color: green !important;
+}
+
+p.title {
+    color: green;
+    margin-top: 3rem;
+    font-size: 1.5em;
+    background-color: white;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+
+/*gradient {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 60, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);*/
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    margin-top: 0%;
+}
+
+.carousel-item {
+    height: 40%;
+    width: 90%;
+    background: #000000;
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* position: relative; */
+}
+
+.inner-container {
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    right: 10%;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.inner-container h1 {
+    text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 1);
+}
+
+.inner-container p {
+    text-transform: none;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.btn {
+    background-color: transparent;
+}
+
+.fixed {
+    background-image: url(images/sissy/sissy.jpeg);
+    position: fixed;
+}
+
+.fixed-background {
+    padding: 10rem 0;
+}
+
+.about-text {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.jumbotron {
+    background-color: lightblue;
+    color: white;
+}
+
+.vidcont {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+    /*16:9 aspect ratio*/
+}
+
+.video-fluid {
+    position: relati;
+}
+
+.clip-caption {
+    position: absolue;
+}
+
+
+/*.item {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}*/
+
+.cont {
+    width: 60% !important;
+    position: relative;
+    left: 20%;
+}
+
+#contact {
+    font-weight: bold;
+    margin-left: 30px;
+    padding: 10px;
+    background-color: darkgreen;
+    color: white;
+    margin-right: 30px;
+    margin-top: 70px;
+}
+
+#clogo {
+    float: left;
+    padding-left: 10%;
+}
+
+#logoc {
+    height: 20%;
+    width: 20%;
+    border-radius: 10%;
+    margin-top: 10%;
+    margin-left: 70%;
+}
+
+#cinfor {
+    margin-left: 0%;
+    padding-left: 45%;
+}
+
+footer {
+    text-align: center;
+    background: white;
+    color: blue;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/*Social Media Icons*/
+
+
+/* Style all font awesome icons */
+
+.fa {
+    padding: 12px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+
+/* Add a hover effect if you want */
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/* Set a specific color for each brand */
+
+
+/* Facebook */
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+/* Twitter */
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #e04949;
+    color: white;
+}
