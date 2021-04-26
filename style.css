@@ -216,22 +216,14 @@ p.title {
     margin-top: 70px;
 }
 
-#clogo {
-    float: left;
-    padding-left: 10%;
-}
+#clogo {}
 
 #logoc {
-    height: 15%;
-    width: 15%;
+    height: auto;
+    width: 10%;
     border-radius: 10%;
-    margin-top: 5%;
-    margin-left: 10%;
-}
-
-#cinfor {
-    margin-left: 0%;
-    padding-left: 45%;
+    margin-top: 0%;
+    margin-left: 2%;
 }
 
 footer {
