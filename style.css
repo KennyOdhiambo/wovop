@@ -207,23 +207,24 @@ p.title {
 }
 
 #contact {
-    font-weight: bold;
     margin-left: 30px;
-    padding: 10px;
+    padding: 1%;
     background-color: darkgreen;
     color: white;
-    margin-right: 30px;
+    margin-right: 10px;
     margin-top: 70px;
 }
 
-#clogo {}
+#clogo {
+    ;
+}
 
 #logoc {
     height: auto;
     width: 10%;
     border-radius: 10%;
-    margin-top: 0%;
-    margin-left: 2%;
+    margin-top: 5%;
+    margin-left: 30%;
 }
 
 footer {
